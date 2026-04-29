@@ -706,3 +706,23 @@
     background: linear-gradient(90deg, transparent, rgba(168,85,247,0.3), transparent);
     margin: 28px 0;
 }
+
+@media (max-width: 768px) {
+    .hero-header {
+        padding: 32px 16px 20px;
+        margin-bottom: 4px;
+    }
+
+    .hero-title {
+        font-size: 48px;
+    }
+
+    .stat-row {
+        gap: 20px;
+        margin: 12px 0 20px;
+    }
+
+    .ticker-wrap {
+        margin-bottom: 16px;
+    }
+}
