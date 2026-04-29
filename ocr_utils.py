@@ -15,7 +15,6 @@ Usage in app.py (optional integration):
     from ocr_utils import extract_text_from_image, extract_text_from_pdf
 """
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 import re
 import io
 from typing import Optional
