@@ -5,3 +5,4 @@ pytesseract
 pypdf2
 scikit-learn
 numpy
+pdfplumber
